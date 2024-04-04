@@ -11,6 +11,18 @@
 		8B4180CA2BBDB5D900C712E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180C92BBDB5D900C712E6 /* ContentView.swift */; };
 		8B4180CC2BBDB5DB00C712E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4180CB2BBDB5DB00C712E6 /* Assets.xcassets */; };
 		8B4180CF2BBDB5DB00C712E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4180CE2BBDB5DB00C712E6 /* Preview Assets.xcassets */; };
+		8B4180D62BBDB7BF00C712E6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180D52BBDB7BF00C712E6 /* GameScene.swift */; };
+		8B4180D82BBDB7E500C712E6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180D72BBDB7E500C712E6 /* GameView.swift */; };
+		8B4180DA2BBDBEBD00C712E6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180D92BBDBEBD00C712E6 /* MainView.swift */; };
+		8B4180DC2BBDBF1C00C712E6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180DB2BBDBF1C00C712E6 /* BackgroundView.swift */; };
+		8B4180DF2BBDC03B00C712E6 /* IrishGrover-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4180DE2BBDC03B00C712E6 /* IrishGrover-Regular.ttf */; };
+		8B4180E22BBDC52F00C712E6 /* MyCareerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180E12BBDC52F00C712E6 /* MyCareerView.swift */; };
+		8B4180E42BBDC8CB00C712E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180E32BBDC8CB00C712E6 /* SettingsView.swift */; };
+		8B4180E62BBDD24700C712E6 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4180E52BBDD24700C712E6 /* GameManager.swift */; };
+		8B8908E12BBE101D00D76D83 /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8908E02BBE101D00D76D83 /* FunctionForResize.swift */; };
+		8B8908E32BBE17FC00D76D83 /* LevelsOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8908E22BBE17FC00D76D83 /* LevelsOverlayView.swift */; };
+		8B8908E52BBE231900D76D83 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8908E42BBE231900D76D83 /* SoundManager.swift */; };
+		8B8908E72BBE23E100D76D83 /* spaceSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B8908E62BBE23E100D76D83 /* spaceSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,19 @@
 		8B4180C92BBDB5D900C712E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B4180CB2BBDB5DB00C712E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4180CE2BBDB5DB00C712E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4180D52BBDB7BF00C712E6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8B4180D72BBDB7E500C712E6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8B4180D92BBDBEBD00C712E6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8B4180DB2BBDBF1C00C712E6 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8B4180DE2BBDC03B00C712E6 /* IrishGrover-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IrishGrover-Regular.ttf"; sourceTree = "<group>"; };
+		8B4180E02BBDC0AB00C712E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B4180E12BBDC52F00C712E6 /* MyCareerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCareerView.swift; sourceTree = "<group>"; };
+		8B4180E32BBDC8CB00C712E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8B4180E52BBDD24700C712E6 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		8B8908E02BBE101D00D76D83 /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8B8908E22BBE17FC00D76D83 /* LevelsOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsOverlayView.swift; sourceTree = "<group>"; };
+		8B8908E42BBE231900D76D83 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		8B8908E62BBE23E100D76D83 /* spaceSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spaceSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +76,21 @@
 		8B4180C62BBDB5D900C712E6 /* Striker */ = {
 			isa = PBXGroup;
 			children = (
+				8B4180E02BBDC0AB00C712E6 /* Info.plist */,
 				8B4180C72BBDB5D900C712E6 /* StrikerApp.swift */,
 				8B4180C92BBDB5D900C712E6 /* ContentView.swift */,
+				8B4180D52BBDB7BF00C712E6 /* GameScene.swift */,
+				8B4180D72BBDB7E500C712E6 /* GameView.swift */,
+				8B4180D92BBDBEBD00C712E6 /* MainView.swift */,
+				8B4180E12BBDC52F00C712E6 /* MyCareerView.swift */,
+				8B4180DB2BBDBF1C00C712E6 /* BackgroundView.swift */,
+				8B4180E52BBDD24700C712E6 /* GameManager.swift */,
+				8B4180E32BBDC8CB00C712E6 /* SettingsView.swift */,
+				8B8908E02BBE101D00D76D83 /* FunctionForResize.swift */,
+				8B8908E22BBE17FC00D76D83 /* LevelsOverlayView.swift */,
+				8B8908E42BBE231900D76D83 /* SoundManager.swift */,
+				8B8908E62BBE23E100D76D83 /* spaceSound.mp3 */,
+				8B4180DD2BBDC01300C712E6 /* Fonts */,
 				8B4180CB2BBDB5DB00C712E6 /* Assets.xcassets */,
 				8B4180CD2BBDB5DB00C712E6 /* Preview Content */,
 			);
@@ -65,6 +103,14 @@
 				8B4180CE2BBDB5DB00C712E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B4180DD2BBDC01300C712E6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B4180DE2BBDC03B00C712E6 /* IrishGrover-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4180CF2BBDB5DB00C712E6 /* Preview Assets.xcassets in Resources */,
+				8B8908E72BBE23E100D76D83 /* spaceSound.mp3 in Resources */,
+				8B4180DF2BBDC03B00C712E6 /* IrishGrover-Regular.ttf in Resources */,
 				8B4180CC2BBDB5DB00C712E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4180DC2BBDBF1C00C712E6 /* BackgroundView.swift in Sources */,
+				8B8908E12BBE101D00D76D83 /* FunctionForResize.swift in Sources */,
+				8B4180E62BBDD24700C712E6 /* GameManager.swift in Sources */,
+				8B4180E42BBDC8CB00C712E6 /* SettingsView.swift in Sources */,
+				8B8908E32BBE17FC00D76D83 /* LevelsOverlayView.swift in Sources */,
+				8B8908E52BBE231900D76D83 /* SoundManager.swift in Sources */,
+				8B4180D62BBDB7BF00C712E6 /* GameScene.swift in Sources */,
+				8B4180E22BBDC52F00C712E6 /* MyCareerView.swift in Sources */,
 				8B4180CA2BBDB5D900C712E6 /* ContentView.swift in Sources */,
+				8B4180D82BBDB7E500C712E6 /* GameView.swift in Sources */,
+				8B4180DA2BBDBEBD00C712E6 /* MainView.swift in Sources */,
 				8B4180C82BBDB5D900C712E6 /* StrikerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,6 +333,7 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Striker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +363,7 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Striker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
